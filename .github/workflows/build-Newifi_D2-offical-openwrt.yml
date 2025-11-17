@@ -10,6 +10,8 @@
 name: 编译Newifi_D2 Offical's的OpenWrt固件
 
 on: 
+  repository_dispatch:
+  workflow_dispatch:
   # release触发
 #  release:
 #    types: [published]
